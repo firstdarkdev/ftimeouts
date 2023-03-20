@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.hypherionmc.ftimeouts.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "server": [
+    "ConnectionMixin",
+    "ServerLoginMixin",
+    "ServerGamePacketMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "${refmap_target}refmap.json"
+}

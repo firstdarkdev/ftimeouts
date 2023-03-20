@@ -1,0 +1,38 @@
+modLoader="javafml"
+loaderVersion="[45,)"
+license="MIT"
+#issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/"
+
+[[mods]] #mandatory
+modId="ftimeouts"
+version="${file.jarVersion}"
+displayName="F Timeouts"
+#updateJSONURL="https://change.me.example.invalid/updates.json"
+#displayURL="https://change.me.to.your.mods.homepage.example.invalid/"
+logoFile="multiloader.png"
+#credits="Thanks for this example mod goes to Java"
+authors="HypherionSA"
+description='''
+No more Server Timeouts
+'''
+
+[[dependencies.ftimeouts]]
+    modId="forge"
+    mandatory=true
+    versionRange="[45,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.ftimeouts]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.4,1.20)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.ftimeouts]]
+    modId="craterlib"
+    mandatory=true
+    versionRange="0.0.x"
+    ordering="AFTER"
+    side="BOTH"

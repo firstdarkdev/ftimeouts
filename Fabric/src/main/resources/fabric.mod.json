@@ -1,0 +1,35 @@
+{
+    "schemaVersion": 1,
+    "id": "ftimeouts",
+    "version": "${version}",
+
+    "name": "F Timeouts",
+    "description": "No more server timeouts",
+    "authors": [
+      "HypherionSA"
+    ],
+    "contact": {
+      "homepage": "",
+      "sources": ""
+    },
+
+    "license": "MIT",
+
+    "environment": "server",
+    "entrypoints": {
+        "server": [
+          "me.hypherionmc.fucktimeouts.FTimeouts"
+        ]
+    },
+    "mixins": [
+      "ftimeouts.mixins.json"
+    ],
+
+    "depends": {
+      "fabricloader": ">=0.14",
+      "fabric": "*",
+      "minecraft": ">=1.19.4",
+      "java": ">=17",
+      "craterlib": "*"
+    }
+  }
